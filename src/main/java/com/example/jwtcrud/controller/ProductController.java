@@ -22,6 +22,7 @@ public class ProductController {
         this.productService = productService;
     }
 
+    //This is api is used tp create product
     @PostMapping
     public ResponseEntity<Product> create(@Valid @RequestBody ProductRequest request) {
         return ResponseEntity.ok(productService.create(request));
