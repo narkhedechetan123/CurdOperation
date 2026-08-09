@@ -13,6 +13,7 @@ import java.util.List;
 // Every endpoint here is protected by SecurityConfig (anyRequest().authenticated()).
 // A request without a valid "Authorization: Bearer <token>" header gets a 401/403.
 // Chetan Changes in Product controller
+// Chetan Second changes.
 @RestController
 @RequestMapping("/api/products")
 public class ProductController {
